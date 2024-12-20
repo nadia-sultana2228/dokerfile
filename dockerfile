@@ -2,7 +2,7 @@
 FROM amazonlinux
 
 # Define the maintainer of this Dockerfile
-MAINTAINER nadia sultana <devops.er.nadiasultana@gmail.com>
+LABEL maintainer= "nadia sultana <devops.er.nadiasultana@gmail.com>"
 
 # Set the working directory inside the container
 WORKDIR /var/lib/jenkins/workspace/jenkins
